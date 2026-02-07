@@ -36,6 +36,17 @@ CodeInsult is a "savage" VS Code extension that replaces boring error markers wi
   - **Harsh**: Standard roasting.
   - **Psychological Abuse**: Red-alert carnage for your ego.
 
+### 📸 Screenshots
+
+<p align="center">
+  <img src="images/en_insult.png" width="45%" alt="English Insult">
+  <img src="images/tr_insult.png" width="45%" alt="Turkish Insult">
+</p>
+<p align="center">
+  <img src="images/manage_menu.png" width="45%" alt="Management Menu">
+  <img src="images/tr_shame_counter.png" width="45%" alt="Shame Counter">
+</p>
+
 ### 🛠️ Installation
 
 1. Download the [`.vsix`](https://github.com/Slecyx/CodeInsult/releases) file.
@@ -61,6 +72,17 @@ CodeInsult, sıkıcı hata mesajlarını ruhunu sızlatan bir alayla değiştire
   - **Kibar**: Pasif-agresif uyarılar.
   - **Sert**: Standart aşağılama.
   - **Psikolojik Şiddet**: Ego sarsan kırmızı alarm mesajları.
+
+### 📸 Görseller
+
+<p align="center">
+  <img src="images/en_insult.png" width="45%" alt="İngilizce Hakaret">
+  <img src="images/tr_insult.png" width="45%" alt="Türkçe Hakaret">
+</p>
+<p align="center">
+  <img src="images/manage_menu.png" width="45%" alt="Yönetim Menüsü">
+  <img src="images/tr_shame_counter.png" width="45%" alt="Utanç Sayacı">
+</p>
 
 ---
 
