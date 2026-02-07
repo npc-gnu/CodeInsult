@@ -1,0 +1,91 @@
+{
+    "name": "code-insult",
+    "displayName": "CodeInsult",
+    "description": "Hata yaptığınızda sizi aşağılayan, sarkastik ve komik mesajlar çıkaran bir eklenti.",
+    "version": "0.1.0",
+    "publisher": "slecyx",
+    "author": {
+        "name": "Slecyx"
+    },
+    "license": "MIT",
+    "icon": "icon.png",
+    "keywords": [
+        "insult",
+        "funny",
+        "sarcastic",
+        "human",
+        "productive"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Slecyx/CodeInsult"
+    },
+    "bugs": {
+        "url": "https://github.com/Slecyx/CodeInsult/issues"
+    },
+    "homepage": "https://github.com/Slecyx/CodeInsult#readme",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Other",
+        "Education"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "configuration": {
+            "title": "CodeInsult Settings",
+            "properties": {
+                "codeInsult.insultLevel": {
+                    "type": "string",
+                    "enum": [
+                        "Kibar",
+                        "Sert",
+                        "Psikolojik Şiddet"
+                    ],
+                    "default": "Sert",
+                    "description": "Eklentinin size ne kadar kötü davranacağını seçin."
+                },
+                "codeInsult.language": {
+                    "type": "string",
+                    "enum": [
+                        "Auto",
+                        "Turkish",
+                        "English"
+                    ],
+                    "default": "Auto",
+                    "description": "Hakaretlerin dilini seçin. Auto seçilirse VS Code dili kullanılır."
+                }
+            }
+        },
+        "commands": [
+            {
+                "command": "code-insult.manage",
+                "title": "CodeInsult: Manage My Shame"
+            },
+            {
+                "command": "code-insult.toggle",
+                "title": "CodeInsult: Toggle Insults"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.85.0",
+        "@types/node": "20.x",
+        "typescript": "^5.3.3",
+        "eslint": "^8.56.0",
+        "@typescript-eslint/eslint-plugin": "^6.19.0",
+        "@typescript-eslint/parser": "^6.19.0"
+    }
+}
