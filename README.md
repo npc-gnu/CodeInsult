@@ -1,11 +1,15 @@
-# 🤬 CodeInsult
+# 🤬 CodeInsult 🚨
 
 <p align="center">
-  <img src="icon.png" width="128" alt="CodeInsult Logo">
+  <img src="icon.png" width="160" alt="CodeInsult Logo">
 </p>
 
 <p align="center">
-  <a href="#english">English</a> | <a href="#turkish">Türkçe</a>
+  <b><i>"Because your code is a joke, and someone needs to tell you."</i></b>
+</p>
+
+<p align="center">
+  <a href="#english">English</a> • <a href="#turkish">Türkçe</a>
 </p>
 
 ---
@@ -13,62 +17,61 @@
 <a name="english"></a>
 ## 🇺🇸 English Version
 
-**Tired of making mistakes while coding? We're tired of seeing them too.**
+**Stop failing. Or don't, I love watching you struggle.**
 
-CodeInsult is a "savage" VS Code extension that insults you and redirects you to gardening when you make a mistake (Diagnostic Error). Now your errors aren't just red lines; they're a slap in the face!
+CodeInsult is a "savage" VS Code extension that replaces boring error markers with soul-crushing sarcasm. It monitors your diagnostics and roasts you accordingly.
 
-### 🚀 Features
+### 🚀 Epic Features
 
-- **🔥 200+ Savage Insults**: A massive library of specialized insults (EN/TR) to avoid repetition.
-- **📊 Shame Counter**: Your mistakes are stored in the global state. Check your level in the status bar: *Skilled? Rock Bottom? or Hopeless Case?*
-- **🌐 Multi-language Support**: Automatically detects your system language (Auto) or you can manually fix it to English or Turkish.
-- **⚙️ Manage Panel**: Click the counter to reset shame, change language, or adjust the insult level.
-- **🚨 Insult Levels**: 
-  - **Polite**: Gentle warnings.
+- **🔥 200+ Savage Insults**: A massive, categorized library (Syntax, Type, Unused) to keep the roasts fresh.
+- **📊 Shame Counter**: Track your incompetence. Your total errors persist across sessions. Are you *Skilled* or a *Hopeless Case*?
+- **🌐 Smart Localization**: Automatic detection of your system language. Switch between English and Turkish anytime.
+- **⚙️ Manage Panel**: Click the Status Bar item to reset your shame, toggle languages, or upgrade the "bullying" level.
+- **🚨 Brutality Levels**: 
+  - **Polite**: Passive-aggressive nudges.
   - **Harsh**: Standard roasting.
-  - **Psychological Abuse**: Extreme aggressive warnings and emojis.
+  - **Psychological Abuse**: Red-alert carnage for your ego.
 
 ### 🛠️ Installation
 
-1. Download the `.vsix` file.
-2. Open VS Code Extensions tab.
-3. Select **"Install from VSIX..."** from the `...` menu.
+1. Download the [`.vsix`](https://github.com/Slecyx/CodeInsult/releases) file.
+2. Open VS Code Extensions (`Ctrl+Shift+X`).
+3. Click the `...` menu and choose **"Install from VSIX..."**.
 
 ---
 
 <a name="turkish"></a>
 ## 🇹🇷 Türkçe Versiyon
 
-**Kod yazarken hata yapmaktan bıkmadın mı? Biz de senin hatalarını görmekten bıktık.**
+**Hata yapmayı bırak. Ya da bırakma, çabalamanı izlemek hoşuma gidiyor.**
 
-CodeInsult, VS Code içinde bir hata yaptığında seni aşağılayan ve seni bahçıvanlığa yönlendiren "savage" bir eklentidir. Artık hataların sadece kırmızı bir çizgi değil, yüzüne vurulan bir gerçek!
+CodeInsult, sıkıcı hata mesajlarını ruhunu sızlatan bir alayla değiştiren "savage" bir VS Code eklentisidir. Kodundaki hataları pusuya yatarak bekler ve seni anında aşağılar.
 
-### 🚀 Özellikler
+### 🚀 Epik Özellikler
 
-- **🔥 200+ Savage Hakaret**: Tekrara düşmemek için devasal bir hakaret kütüphanesi (TR/EN).
-- **📊 Utanç Sayacı**: Yaptığın hatalar unutulmaz. Sağ altta seviyeni gör: *Yetenekli mi? Umutsuz Vaka mı?*
-- **🌐 Çok Dilli Destek**: Sistem dilini otomatik algılar veya manuel olarak ayarlanabilir.
-- **⚙️ Yönetim Paneli**: Sayaca tıkla; utancını sıfırla, dili değiştir veya zorbalık dozunu ayarla.
+- **🔥 200+ Savage Hakaret**: Tekrara düşmemek için devasal, kategorize edilmiş hakaret kütüphanesi.
+- **📊 Utanç Sayacı**: Yeteneksizliğini takip et. Toplam hataların oturumlar arasında silinmez. Seviyen ne: *Yetenekli mi? Umutsuz Vaka mı?*
+- **🌐 Akıllı Dil Desteği**: Sistem dilini otomatik algılar. İstediğin zaman Türkçe ve İngilizce arasında geçiş yap.
+- **⚙️ Yönetim Paneli**: Status Bar sayacına tıkla; utancını sıfırla, dili değiştir veya zorbalık dozunu ayarla.
 - **🚨 Zorbalık Seviyeleri**: 
-  - **Kibar**: Nazik uyarılar.
+  - **Kibar**: Pasif-agresif uyarılar.
   - **Sert**: Standart aşağılama.
-  - **Psikolojik Şiddet**: Ekstrem agresif uyarılar ve emojiler.
+  - **Psikolojik Şiddet**: Ego sarsan kırmızı alarm mesajları.
 
 ---
 
-## 🤮 Settings / Ayarlar
+## 🤮 Settings & Configuration
 
 | Setting / Ayar | Description / Açıklama |
 | :--- | :--- |
-| `codeInsult.insultLevel` | Insult level / Zorbalık seviyesi |
+| `codeInsult.insultLevel` | Brutality level / Zorbalık seviyesi |
 | `codeInsult.language` | Language / Dil (Auto, Turkish, English) |
 
 ---
 
 ## 🤝 Contributing / Katkıda Bulunma
 
-Daha yaratıcı hakaretlerin mi var? / Got better insults?  
-Send a Pull Request! / Bir PR gönder!
+Got better insults? Open a PR and share the pain. / Daha yaratıcı hakaretlerin mi var? PR aç, acıyı paylaşalım.
 
 ---
 
@@ -78,4 +81,6 @@ MIT License.
 
 ---
 
-*Note: This extension is for humor only. If you have an emotional bond with your code, please don't use it.*
+<p align="center">
+  <i>Note: This extension is intended for humor only. If you cry easily, go back to using Scratch.</i>
+</p>
